@@ -1,15 +1,17 @@
 # 拾页 · 浏览器扩展
 
+<img src="extension/icons/icon-128.png" width="96" alt="拾页图标">
+
 让新标签页成为自己的书签起始页，并在已配对浏览器之间同步书签、标签组与最近七天的历史摘要。
 
 - 站点：[wo.bohanrich.com](https://wo.bohanrich.com)
 - 安装包：[最新 Release](https://github.com/Bohanfree/shiye-extension/releases/latest)
-- 当前版本：**0.3.2**
+- 当前版本：**0.3.3**
 - 适用：Chrome 100+，以及支持相关扩展接口的 Ego Lite / Chromium 浏览器。
 
 ## 安装
 
-1. 在 Releases 中下载 `shiye-extension-v0.3.2.zip` 并解压到一个固定文件夹。
+1. 在 Releases 中下载 `shiye-extension-v0.3.3.zip` 并解压到一个固定文件夹。
 2. 打开 `chrome://extensions`，开启右上角「开发者模式」。
 3. 点击「加载未打包的扩展程序」，选择包含 `manifest.json` 的解压目录。
 4. 浏览器提示更改新标签页时，选择保留此设置。
