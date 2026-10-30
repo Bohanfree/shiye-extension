@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "拾页 · 浏览器资料同步",
-  "version": "0.3.3",
-  "description": "同步书签、标签组和七天历史到拾页，新建标签页直接打开你的起始页。",
+  "version": "0.3.4",
+  "description": "同步书签、标签组和七天历史到拾页，保留浏览器默认新标签页。",
   "permissions": [
     "bookmarks",
     "history",
@@ -30,9 +30,6 @@
   },
   "options_page": "options.html",
   "minimum_chrome_version": "100",
-  "chrome_url_overrides": {
-    "newtab": "newtab.html"
-  },
   "icons": {
     "16": "icons/icon-16.png",
     "32": "icons/icon-32.png",
