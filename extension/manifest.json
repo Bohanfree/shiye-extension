@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "拾页 · 浏览器资料同步",
+  "version": "0.3.2",
+  "description": "同步书签、标签组和七天历史到拾页，新建标签页直接打开你的起始页。",
+  "permissions": [
+    "bookmarks",
+    "history",
+    "tabs",
+    "tabGroups",
+    "storage",
+    "unlimitedStorage",
+    "alarms"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1/*",
+    "http://localhost/*",
+    "https://wo.bohanrich.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "打开拾页同步设置"
+  },
+  "options_page": "options.html",
+  "minimum_chrome_version": "100",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}
